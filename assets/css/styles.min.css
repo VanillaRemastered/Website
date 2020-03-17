@@ -127,12 +127,22 @@
 	transition: background-color .25s
 }
 
-.highlight-phone {
+.highlight-discord {
 	color: #313437;
-	background-color: #eef4f7;
-	padding: 50px 0 55px;
+	background-image: url("../img/discord-background.jpg");
+	padding: 80px 0 55px;
 	overflow: hidden
 }
+
+.highlight-gtaclient {
+    color: #313437; 
+    background-image:url("../img/vanillaDev.png"); 
+    background-repeat: repeat;
+    background-position: center;
+	padding: 100px 0 55px;
+	overflow: hidden
+}
+
 
 .highlight-phone p {
 	color: #7d8285
