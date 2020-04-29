@@ -143,6 +143,16 @@
 	overflow: hidden
 }
 
+.highlight-nums {
+    color: #313437; 
+    background-color: #313437;
+    background-repeat: repeat;
+    background-position: center;
+	padding: 10px 0 55px;
+	overflow: hidden
+}
+
+
 
 .highlight-phone p {
 	color: #7d8285
