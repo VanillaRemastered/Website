@@ -135,12 +135,50 @@
 }
 
 .highlight-gtaclient {
-    color: #313437; 
-    background-image:url("../img/vanillaDev.png"); 
-    background-repeat: repeat;
-    background-position: center;
-	padding: 100px 0 55px;
-	overflow: hidden
+	margin: 50px auto;
+	text-align: center;
+	
+}
+.highlight-gtaclient .box {
+	background: rgb(32, 32, 32);
+	width: 440px;
+	padding: 20px;
+	color: white;
+	border-radius: 20px;
+	display: inline-block;
+	height: 400px;
+	margin: 20px 20px;
+}
+.highlight-gtaclient .box#sa img {
+	width: 250px;
+}
+.highlight-gtaclient .box#vc img {
+	width: 200px;
+}
+.highlight-gtaclient a {
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.highlight-gtaclient a.active {
+	background: #20ba6d;
+	cursor: pointer;
+}
+.highlight-gtaclient a.inactive {
+	background: #2f2f2f;
+	color: #666666;
+	cursor: default;
+}
+.highlight-gtaclient a.learn {
+	border: 3px solid #20ba6d;
+	cursor: pointer;
+	padding: 8px 20px;
+}
+.highlight-gtaclient p.info {
+	color: #666666;
+	margin-top: 25px;
 }
 
 .highlight-nums {
