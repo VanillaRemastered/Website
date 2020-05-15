@@ -92,7 +92,7 @@
 
 .highlight-green .intro {
 	font-size: 16px;
-	max-width: 500px;
+	max-width: 1000px;
 	margin: 0 auto 25px
 }
 
@@ -137,7 +137,7 @@
 .highlight-gtaclient {
 	margin: 50px auto;
 	text-align: center;
-	
+	max-width: 1000px;
 }
 .highlight-gtaclient .box {
 	background: rgb(32, 32, 32);
@@ -154,6 +154,10 @@
 }
 .highlight-gtaclient .box#vc img {
 	width: 200px;
+}
+.highlight-gtaclient .box#sv img {
+	width: 350px;
+	margin: 30px 0 30px 0;
 }
 .highlight-gtaclient a {
 	color: white;
@@ -180,6 +184,7 @@
 	color: #666666;
 	margin-top: 25px;
 }
+
 
 .highlight-nums {
     color: #313437; 
